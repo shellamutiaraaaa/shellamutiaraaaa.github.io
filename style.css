@@ -1,0 +1,178 @@
+/* =========================
+   GENERAL
+   ========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #1F2937;
+    background-color: #F4F8FC;
+    margin: 0;
+}
+
+
+/* =========================
+   HEADER
+   ========================= */
+
+header {
+    background-color: #1565C0;
+    color: white;
+    text-align: center;
+    padding: 24px;
+}
+
+#site-name {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#site-name a {
+    color: white;
+    text-decoration: none;
+}
+
+#tagline {
+    color: #E3F2FD;
+    font-style: italic;
+}
+
+
+/* =========================
+   NAVIGATION
+   ========================= */
+
+nav {
+    background-color: #0D47A1;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+a.current {
+    border-bottom: 3px solid #90CAF9;
+    padding-bottom: 5px;
+}
+
+
+/* =========================
+   MAIN
+   ========================= */
+
+main {
+    width: 720px;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+
+    background-color: white;
+    border: 1px solid #BBDEFB;
+    border-radius: 8px;
+}
+
+
+/* =========================
+   HEADINGS
+   ========================= */
+
+h1 {
+    color: #0D47A1;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #1565C0;
+}
+
+
+/* =========================
+   DISH CARDS
+   ========================= */
+
+.dish {
+    min-height: 135px;
+    padding: 16px;
+    margin-bottom: 24px;
+
+    background-color: #E3F2FD;
+    border: 1px solid #90CAF9;
+    border-radius: 8px;
+}
+
+.dish img {
+    float: right;
+    margin-left: 16px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+}
+
+.dish h2 {
+    margin-top: 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #0D47A1;
+    font-size: 18px;
+}
+
+
+/* =========================
+   TABLE
+   ========================= */
+
+table,
+th,
+td {
+    border: 1px solid #90CAF9;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    padding: 10px 16px;
+    text-align: left;
+}
+
+th {
+    background-color: #1565C0;
+    color: white;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    background-color: #0D47A1;
+    color: white;
+    text-align: center;
+    padding: 16px 24px;
+}
